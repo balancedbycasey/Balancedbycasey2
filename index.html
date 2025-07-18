@@ -51,7 +51,7 @@
       max-width: 800px;
       margin: 0 auto;
     }
-    .services, .about, .contact, .newsletter {
+    .services, .about, .contact, .newsletter, .quote-form {
       margin-bottom: 2rem;
     }
     footer {
@@ -59,6 +59,21 @@
       padding: 1rem;
       background: #32475c;
       color: white;
+    }
+    input, textarea, button {
+      display: block;
+      width: 100%;
+      max-width: 500px;
+      margin-bottom: 1rem;
+      padding: 0.75rem;
+      font-size: 1rem;
+    }
+    button {
+      background: #32475c;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
     }
   </style>
 </head>
@@ -87,6 +102,13 @@
       <li><strong>Momentum Plan:</strong> For growing businesses – $350/mo</li>
       <li><strong>Legacy Plan:</strong> For seasoned entrepreneurs – $600/mo</li>
       <li><strong>Full Payroll Liaison:</strong> Add-on starting at $60/mo</li>
+      <li><strong>Catch-Up Bookkeeping:</strong> Starting at $200/month of cleanup. Pricing is based on complexity:
+        <ul>
+          <li>Simple (low volume, 1 account): $150–$250/mo</li>
+          <li>Moderate (2–3 accounts, 100–300 transactions): $250–$500/mo</li>
+          <li>Complex (multiple accounts, high volume, disorganized books): $500–$900+/mo</li>
+        </ul>
+        Optional add-ons: paper receipt entry (+$100–$200), no bank feed access (+$50–$100), back tax prep (quote provided).</li>
     </ul>
   </section>
 
@@ -100,7 +122,17 @@
     <p>Get simple, stress-free bookkeeping tips right to your inbox. No spam, just helpful advice.</p>
     <form action="https://assets.mailerlite.com/jsonp/1669765/forms/160120500350092500/subscribe" method="post" target="_blank">
       <input type="email" name="fields[email]" placeholder="Your email address" required style="padding: 0.5rem; margin-right: 0.5rem; width: 250px;">
-      <button type="submit" style="padding: 0.5rem 1rem; background: #32475c; color: white; border: none; border-radius: 4px;">Subscribe</button>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <section class="section quote-form" id="quote">
+    <h2>Request a Quote for Catch-Up Bookkeeping</h2>
+    <form action="mailto:balancedbycasey@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="details" rows="5" placeholder="Tell me about your catch-up needs (months of backlog, # of accounts, etc.)" required></textarea>
+      <button type="submit">Send Request</button>
     </form>
   </section>
 
