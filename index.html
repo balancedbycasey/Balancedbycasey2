@@ -143,28 +143,25 @@
 <!-- End MailerLite Universal -->
   <div class="ml-embedded" data-form="ZyH1id" style="margin-left: 0; max-width: 500px;"></div>
 </section>
-Contact Us
 
 <section class="section contact" id="contact">
   <h2>Contact Us</h2>
-  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" enctype="multipart/form-data" style="display: flex; flex-direction: column; align-items: center; gap: 1rem; max-width: 600px; margin: 0 auto;">
-    
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" enctype="multipart/form-data" class="contact-form">
     <input type="text" name="name" placeholder="Your Name" required />
     <input type="email" name="email" placeholder="Your Email" required />
     <input type="tel" name="phone" placeholder="Your Phone Number" required />
     <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
 
-    <fieldset style="text-align: left; max-width: 100%; background: #f0f0f0; border: 1px solid #ccc; padding: 1rem; border-radius: 5px;">
+    <fieldset>
       <legend><strong>Consent for Text Messages</strong></legend>
-      <p style="font-size: 0.9rem;">
-        Balanced By Casey Book Keeping Services would like your consent to send text messages from +1 (888) 308-2364 to your mobile number listed above regarding customer care.
-        Consent is not a condition of purchase. Message frequency varies. Message and data rates may apply. Reply 'STOP' to unsubscribe.
+      <p>
+        Balanced By Casey Book Keeping Services would like your consent to send text message communications from +1 (888) 308-2364.
       </p>
-      <label><input type="checkbox" name="sms_consent_yes" value="Yes" /> Yes, I consent to receive informational messages.</label><br />
-      <label><input type="checkbox" name="sms_consent_no" value="No" /> No, I do not want to receive text messages.</label>
+      <label><input type="checkbox" name="sms_consent_yes" value="Yes" /> Yes, I consent</label><br />
+      <label><input type="checkbox" name="sms_consent_no" value="No" /> No, I do not consent</label>
     </fieldset>
 
-    <p style="font-size: 0.85rem; color: #555;">We do not share your mobile opt-in information. View our <a href="privacy.html">Privacy Policy</a>.</p>
+    <p style="font-size: 0.85rem; color: #555;">We do not share your opt-in info. See our <a href="privacy.html">Privacy Policy</a>.</p>
 
     <button type="submit">Send</button>
   </form>
