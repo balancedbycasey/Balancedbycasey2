@@ -144,28 +144,57 @@
   <div class="ml-embedded" data-form="ZyH1id" style="margin-left: 0; max-width: 500px;"></div>
 </section>
 
-<section class="section contact" id="contact">
+<section class="section contact-form" id="contact" style="max-width: 600px; margin: 0 auto; text-align: center;">
   <h2>Contact Us</h2>
-  <form action="https://formspree.io/f/mvgqrbvy" method="POST" enctype="multipart/form-data" class="contact-form">
-    <input type="text" name="name" placeholder="Your Name" required />
-    <input type="email" name="email" placeholder="Your Email" required />
-    <input type="tel" name="phone" placeholder="Your Phone Number" required />
-    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+  <form action="https://formspree.io/f/mvgqrbvy" method="POST" style="text-align: left;">
+    <label>
+      Your Name:<br />
+      <input type="text" name="name" required />
+    </label><br />
 
-    <fieldset>
-      <legend><strong>Consent for Text Messages</strong></legend>
-      <p>
-        Balanced By Casey Book Keeping Services would like your consent to send text message communications from +1 (888) 308-2364.
+    <label>
+      Email Address:<br />
+      <input type="email" name="email" required />
+    </label><br />
+
+    <label>
+      Phone Number:<br />
+      <input type="tel" name="phone" required />
+    </label><br />
+
+    <label>
+      Your Message:<br />
+      <textarea name="message" rows="5" required></textarea>
+    </label><br />
+
+    <fieldset style="text-align: left; margin-top: 1.5rem; padding: 1rem; border: 1px solid #ccc; border-radius: 8px;">
+      <legend><strong>Text Message Consent</strong></legend>
+      <p style="font-size: 0.95rem;">
+        Balanced By Casey Book Keeping Services would like your consent to send text message communications from <strong>+1 (888) 308-2364</strong> to your mobile number listed above, regarding customer care.<br><br>
+        Consent is not a condition of purchase. Message frequency varies. Message and data rates may apply. Reply 'STOP' to unsubscribe at any time. Reply 'HELP' for assistance or more information.
       </p>
-      <label><input type="checkbox" name="sms_consent_yes" value="Yes" /> Yes, I consent</label><br />
-      <label><input type="checkbox" name="sms_consent_no" value="No" /> No, I do not consent</label>
+
+      <label>
+        <input type="checkbox" name="sms_consent_yes" value="Yes" />
+        Yes, I consent to receive informational messages from Balanced By Casey Book Keeping Services.
+      </label><br />
+
+      <label>
+        <input type="checkbox" name="sms_consent_no" value="No" />
+        No, I do not want to receive any text messages from Balanced By Casey Book Keeping Services.
+      </label>
+
+      <p style="font-size: 0.85rem; margin-top: 1rem;">
+        We do not share your mobile opt-in information with anyone. See our <a href="privacy.html" target="_blank">Privacy Policy</a> for more information on how we handle your data.
+      </p>
     </fieldset>
 
-    <p style="font-size: 0.85rem; color: #555;">We do not share your opt-in info. See our <a href="privacy.html">Privacy Policy</a>.</p>
-
-    <button type="submit">Send</button>
+    <button type="submit" style="background: #32475c; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 4px; cursor: pointer; margin-top: 1.5rem;">
+      Send
+    </button>
   </form>
 </section>
+
 
 
 </body>
