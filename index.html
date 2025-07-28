@@ -145,8 +145,10 @@
 </section>
 
 <section class="section contact-form" id="contact" style="max-width: 600px; margin: 0 auto; text-align: center;">
+<section class="section contact-form" id="contact" style="max-width: 600px; margin: 0 auto; text-align: center;">
   <h2>Contact Us</h2>
   <form action="https://formspree.io/f/mvgqrbvy" method="POST" style="text-align: left;">
+    
     <label>
       Your Name:<br />
       <input type="text" name="name" required />
@@ -170,16 +172,18 @@
     <fieldset style="text-align: left; margin-top: 1.5rem; padding: 1rem; border: 1px solid #ccc; border-radius: 8px;">
       <legend><strong>Text Message Consent</strong></legend>
       <p style="font-size: 0.95rem;">
-        Balanced By Casey Book Keeping Services would like your consent to send text message communications from <strong>+1 (888) 308-2364</strong> to your mobile number listed above, regarding customer care.<br><br>
+        <input type="checkbox" disabled />
+        Balanced By Casey Book Keeping Services would like your consent to send text message communications from <strong>+1 (888) 308-2364</strong> to your mobile number listed above, regarding customer care.
+        <br><br>
         Consent is not a condition of purchase. Message frequency varies. Message and data rates may apply. Reply 'STOP' to unsubscribe at any time. Reply 'HELP' for assistance or more information.
       </p>
 
-      <label>
+      <label style="display: block; margin-top: 0.75rem;">
         <input type="checkbox" name="sms_consent_yes" value="Yes" />
-        Yes, I consent to receive informational messages from Balanced By Casey Book Keeping Services.
-      </label><br />
+        Yes, I consent to receive informational messages from Balanced By Casey Book Keeping Services regarding customer care.
+      </label>
 
-      <label>
+      <label style="display: block; margin-top: 0.5rem;">
         <input type="checkbox" name="sms_consent_no" value="No" />
         No, I do not want to receive any text messages from Balanced By Casey Book Keeping Services.
       </label>
@@ -194,7 +198,6 @@
     </button>
   </form>
 </section>
-
 
 
 </body>
