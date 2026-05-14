@@ -10,300 +10,538 @@
     gtag('config', 'G-2ZF3XJYGPV');
   </script>
 
+ 
+  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Balanced by Casey | Virtual Bookkeeping</title>
-  <link rel="canonical" href="https://balancedbycasey.com/" />
-  <meta name="description" content="Balanced by Casey provides calm, cloud-based bookkeeping for solopreneurs and established businesses. Simple, supportive, and stress-free." />
-
+  <title>Balanced by Casey | Bookkeeping Solutions</title>
   <style>
-    :root{
-      --brand:#32475c;  /* deep slate */
-      --accent:#4d6d9a; /* brand blue */
-      --bg:#f9f9f9;
-      --card:#ffffff;
-      --ink:#1f2d3d;
-      --muted:#6b7280;
-      --radius:14px;
+    :root {
+      --green: #68765d;
+      --dark-green: #4f5d46;
+      --cream: #fbf8f2;
+      --beige: #e9dfd0;
+      --taupe: #9b876f;
+      --text: #333333;
+      --white: #ffffff;
     }
-    *{box-sizing:border-box}
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background-color: var(--bg); color: var(--ink); }
 
-    header { background: var(--brand); color: white; padding: 1.25rem 1rem; position: sticky; top:0; z-index: 50; }
-    .container{ max-width: 1100px; margin: 0 auto; padding: 0 1rem; }
-    .brand { display:flex; align-items:center; justify-content:space-between; gap:1rem; }
-    .brand h1{ font-size:1.4rem; margin:0; letter-spacing:.3px; }
-    nav a { margin: 0 .75rem; color: white; text-decoration: none; font-weight:600; }
-    nav a:hover{ text-decoration: underline; }
-
-    .hero { padding: 3rem 1rem; background: #e9eef4; text-align: center; }
-    .hero h1 { font-size: clamp(1.8rem, 2.8vw + 1rem, 2.6rem); margin: 0 0 1rem; }
-    .hero p { font-size: 1.1rem; max-width: 820px; margin: 0 auto; color:#334155; }
-    .cta { margin-top: 1.5rem; }
-    .cta a { background: var(--brand); color: white; padding: 0.75rem 1.25rem; text-decoration: none; border-radius: 999px; font-weight:700; display:inline-block; box-shadow:0 8px 18px rgba(50,71,92,.2); }
-    .cta a:hover{ background:#2a3b4c; }
-
-    .section { padding: 2rem 1rem; }
-    .card { background: var(--card); border:1px solid #e5e7eb; border-radius: var(--radius); box-shadow: 0 8px 24px rgba(0,0,0,.05); }
-    .narrow { max-width: 900px; margin: 0 auto; }
-
-    .services ul{ padding-left:1.1rem; }
-    .services li{ margin:.35rem 0; }
-
-    form { max-width: 640px; margin: 0 auto; }
-    label { display:block; font-weight:600; margin:.25rem 0 .4rem; }
-    input, textarea, button { width: 100%; margin-bottom: 1rem; padding: 0.75rem; font-size: 1rem; }
-    input, textarea { border:1px solid #cbd5e1; border-radius:8px; background:#fff; }
-    input:focus, textarea:focus { outline: 2px solid #bfdbfe; border-color:#60a5fa; }
-    button { background: var(--brand); color: white; border: none; border-radius: 8px; cursor: pointer; font-weight:700; }
-    button:hover{ background:#2a3b4c; }
-
-    fieldset { text-align: left; margin-top: 1.25rem; padding: 1rem; border: 1px solid #cbd5e1; border-radius: 10px; background:#fff; }
-    legend{ font-weight:700; padding:0 .4rem; }
-    .fineprint{ font-size:.88rem; color: var(--muted); }
-
-    footer { text-align: center; padding: 1rem; background: var(--brand); color: white; }
-
-    .space-s { margin-top:.75rem }
-    .space-m { margin-top:1.5rem }
-    .space-l { margin-top:2rem }
-
-    /* Pricing Table Styles */
-    .pricing-wrap{
-      background: var(--bg);
-      padding: 2rem 0;
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
-    .pricing-table{
-      width:100%;
-      border-collapse:collapse;
-      margin-top:1rem;
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.6;
     }
-    .pricing-table th, .pricing-table td{
-      padding:1rem;
-      border:1px solid #e5e7eb;
-      text-align:left;
+
+    a {
+      color: inherit;
+      text-decoration: none;
     }
-    .pricing-table th{
-      background:#f3f6fb;
-      font-weight:700;
+
+    .container {
+      width: min(1150px, 92%);
+      margin: 0 auto;
     }
-    .pricing-table td strong{ color:var(--brand); }
-    .pricing-notes{
-      font-size:.9rem;
-      color:var(--muted);
-      margin-top:1rem;
+
+    header {
+      background: var(--cream);
+      padding: 22px 0;
+      border-bottom: 1px solid #e5ddd1;
     }
-    .pricing-cta{
-      display:inline-block;
-      margin-top:1.5rem;
-      background:var(--accent);
-      color:#fff;
-      text-decoration:none;
-      padding:.75rem 1.25rem;
-      border-radius:999px;
-      font-weight:700;
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
     }
-    .pricing-cta:hover{ background:#3f5c82; }
+
+    .logo {
+      color: var(--green);
+      line-height: 1;
+    }
+
+    .logo .main {
+      display: block;
+      font-size: 2.4rem;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+    }
+
+    .logo .script {
+      display: block;
+      font-family: 'Brush Script MT', cursive;
+      font-size: 1.7rem;
+      color: var(--taupe);
+      text-align: center;
+      margin-top: 4px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      font-family: Arial, sans-serif;
+      font-size: 0.78rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--green);
+      color: var(--white);
+      padding: 13px 28px;
+      border-radius: 3px;
+      font-family: Arial, sans-serif;
+      font-size: 0.8rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      border: 1px solid var(--green);
+    }
+
+    .btn:hover {
+      background: var(--dark-green);
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1.15fr;
+      min-height: 560px;
+      align-items: center;
+      border-bottom: 1px solid #e5ddd1;
+      overflow: hidden;
+    }
+
+    .hero-content {
+      padding: 70px 6vw;
+      text-align: center;
+    }
+
+    .hero h1 {
+      color: var(--dark-green);
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      line-height: 1.05;
+      margin-bottom: 16px;
+    }
+
+    .hero .script {
+      display: block;
+      color: var(--taupe);
+      font-family: 'Brush Script MT', cursive;
+      font-weight: normal;
+      font-size: clamp(2.1rem, 5vw, 4.1rem);
+    }
+
+    .hero p {
+      font-family: Arial, sans-serif;
+      font-size: 1.1rem;
+      margin: 22px auto 32px;
+      max-width: 390px;
+    }
+
+    .hero-image {
+      min-height: 560px;
+      background:
+        linear-gradient(to right, rgba(251,248,242,0.15), rgba(251,248,242,0)),
+        url('YOUR-HOMEPAGE-IMAGE.jpg') center/cover no-repeat;
+      border-left: 12px solid rgba(104, 118, 93, 0.35);
+      border-top-left-radius: 50%;
+      border-bottom-left-radius: 50%;
+    }
+
+    .intro {
+      text-align: center;
+      padding: 50px 0 45px;
+      border-bottom: 1px solid #e5ddd1;
+    }
+
+    .intro .small-title {
+      font-family: Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      color: var(--dark-green);
+      font-size: 1rem;
+    }
+
+    .intro h2 {
+      font-family: 'Brush Script MT', cursive;
+      color: var(--taupe);
+      font-weight: normal;
+      font-size: clamp(2.2rem, 5vw, 3.4rem);
+      margin: 5px 0 20px;
+    }
+
+    .intro p {
+      max-width: 600px;
+      margin: 0 auto;
+      font-family: Arial, sans-serif;
+    }
+
+    .services {
+      padding: 55px 0;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      text-align: center;
+      border-bottom: 1px solid #e5ddd1;
+    }
+
+    .service-card {
+      padding: 20px 26px;
+      border-right: 1px solid #ddd2c4;
+    }
+
+    .service-card:last-child {
+      border-right: none;
+    }
+
+    .icon {
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background: #e7e5dc;
+      color: var(--dark-green);
+      display: grid;
+      place-items: center;
+      margin: 0 auto 18px;
+      font-family: Arial, sans-serif;
+      font-size: 1.7rem;
+    }
+
+    .service-card h3 {
+      color: var(--dark-green);
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      line-height: 1.3;
+      margin-bottom: 12px;
+    }
+
+    .service-card p {
+      font-family: Arial, sans-serif;
+      font-size: 0.95rem;
+    }
+
+    .quickbooks {
+      background: var(--green);
+      color: var(--white);
+      padding: 48px 0;
+    }
+
+    .quickbooks-inner {
+      display: grid;
+      grid-template-columns: 0.8fr 1.2fr 1fr;
+      gap: 35px;
+      align-items: center;
+    }
+
+    .qb-logo {
+      font-family: Arial, sans-serif;
+      font-size: 2rem;
+      font-weight: bold;
+      line-height: 1.1;
+    }
+
+    .qb-logo span {
+      display: block;
+      font-size: 1rem;
+      font-weight: normal;
+    }
+
+    .quickbooks h2 {
+      font-family: Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 1.2rem;
+      margin-bottom: 12px;
+    }
+
+    .quickbooks p {
+      font-family: Arial, sans-serif;
+    }
+
+    .device-box {
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.35);
+      padding: 35px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      border-radius: 6px;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      background: var(--white);
+    }
+
+    .about-image {
+      min-height: 360px;
+      background: url('YOUR-ABOUT-IMAGE.jpg') center/cover no-repeat;
+    }
+
+    .about-content {
+      padding: 60px 8vw;
+    }
+
+    .about-content .script {
+      font-family: 'Brush Script MT', cursive;
+      color: var(--taupe);
+      font-size: 2rem;
+    }
+
+    .about-content h2 {
+      color: var(--dark-green);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 2rem;
+      line-height: 1.2;
+      margin: 6px 0 18px;
+    }
+
+    .about-content p {
+      font-family: Arial, sans-serif;
+      margin-bottom: 24px;
+    }
+
+    .cta-strip {
+      background: var(--beige);
+      padding: 28px 0;
+    }
+
+    .cta-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .cta-strip h2 {
+      color: var(--dark-green);
+      font-size: 1.8rem;
+    }
+
+    .cta-strip .script {
+      font-family: 'Brush Script MT', cursive;
+      color: var(--taupe);
+      font-size: 2rem;
+      font-weight: normal;
+    }
+
+    footer {
+      background: var(--green);
+      color: var(--white);
+      padding: 32px 0 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      text-align: center;
+      margin-bottom: 22px;
+    }
+
+    .footer-item strong {
+      display: block;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.8rem;
+      margin-bottom: 4px;
+    }
+
+    .tagline {
+      text-align: center;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      opacity: 0.85;
+    }
+
+    @media (max-width: 850px) {
+      .nav {
+        flex-direction: column;
+      }
+
+      nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+      }
+
+      .hero,
+      .about,
+      .quickbooks-inner {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-image {
+        border-radius: 0;
+        border-left: none;
+        min-height: 330px;
+      }
+
+      .services {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .service-card:nth-child(2) {
+        border-right: none;
+      }
+
+      .cta-inner,
+      .footer-grid {
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .services {
+        grid-template-columns: 1fr;
+      }
+
+      .service-card {
+        border-right: none;
+        border-bottom: 1px solid #ddd2c4;
+      }
+
+      .service-card:last-child {
+        border-bottom: none;
+      }
+
+      .logo .main {
+        font-size: 1.9rem;
+      }
+    }
   </style>
 </head>
 <body>
   <header>
-    <div class="container brand">
-      <h1>Balanced by Casey</h1>
-      <nav aria-label="Primary">
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#newsletter">Newsletter</a>
-        <a href="#contact">Contact</a>
+    <div class="container nav">
+      <a href="#" class="logo" aria-label="Balanced by Casey Home">
+        <span class="main">Balanced</span>
+        <span class="script">by Casey</span>
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#quickbooks">QuickBooks Online</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
+
+      <a class="btn" href="#contact">Get Started</a>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="container">
-      <h1>Bookkeeping Built for Real Life</h1>
-      <p>Stress-free, cloud-based bookkeeping for enterprises, solopreneurs, and second‑act business owners. Simple, supportive, and always on your side.</p>
-      <div class="cta">
-        <a href="https://calendly.com/balancedbycasey/30min" target="_blank" rel="noopener noreferrer">Schedule Your Free Call</a>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Bookkeeping Solutions <span class="script">for a Balanced Business</span></h1>
+        <p>Accurate books. Smarter decisions. More time for what you love.</p>
+        <a class="btn" href="#contact">Let’s Balance Your Business</a>
       </div>
-    </div>
-  </section>
+      <div class="hero-image" role="img" aria-label="Bookkeeping desk with records, accounts, calculator, and financial reports"></div>
+    </section>
 
-  <section id="services" class="section">
-    <div class="container card narrow services">
-      <h2>Our Services</h2>
-      <ul>
-        <li><strong>Enterprise Plan:</strong> For established or larger businesses needing customized reporting, advanced reconciliations, and financial advisory — starting at $950/mo (custom quote based on scope)</li>
-        <li><strong>Launch Plan:</strong> For freelancers and side hustlers – starting at $175/mo</li>
-        <li><strong>Momentum Plan:</strong> For growing businesses – starting at $350/mo</li>
-        <li><strong>Legacy Plan:</strong> For seasoned entrepreneurs –starting at  $600/mo</li>
-        <li><strong>Full Payroll Liaison:</strong> Add-on starting at $60/mo</li>
-        <li><strong>Catch-Up Bookkeeping:</strong> Starting at $200/month of cleanup. Pricing is based on complexity:
-          <ul>
-            <li>Simple (low volume, 1 account): $150–$250/mo</li>
-            <li>Moderate (2–3 accounts, 100–300 transactions): $250–$500/mo</li>
-            <li>Complex (multiple accounts, high volume, disorganized books): $500–$900+/mo</li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </section>
+    <section class="intro">
+      <div class="container">
+        <div class="small-title">More Than Numbers.</div>
+        <h2>We help your business thrive.</h2>
+        <p>We provide reliable bookkeeping and financial support to help you stay organized, gain clarity, and grow with confidence.</p>
+      </div>
+    </section>
 
-  <!-- Receipt Upload Pricing Section -->
-  <section id="receipt-pricing" class="section">
-    <div class="container card narrow">
-      <h2>Receipt Upload &amp; Organization</h2>
-      <p>Add-on to monthly bookkeeping with <strong>Balanced by Casey</strong></p>
-      <table class="pricing-table">
-        <thead>
-          <tr>
-            <th>Plan / Option</th>
-            <th>What’s Included</th>
-            <th>Monthly Volume</th>
-            <th>Price</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Basic Add-On</strong></td>
-            <td>Upload &amp; attach receipts to QuickBooks Online</td>
-            <td>Up to 50 receipts / month</td>
-            <td><strong>$50 / month</strong></td>
-          </tr>
-          <tr>
-            <td><strong>Standard Add-On</strong></td>
-            <td>Upload, attach &amp; basic categorization</td>
-            <td>51–100 receipts / month</td>
-            <td><strong>$75 / month</strong></td>
-          </tr>
-          <tr>
-            <td><strong>Premium Add-On</strong></td>
-            <td>Upload, attach, categorize, flag missing info</td>
-            <td>101–200 receipts / month</td>
-            <td><strong>$125 / month</strong></td>
-          </tr>
-          <tr>
-            <td><strong>Enterprise / High-Volume</strong></td>
-            <td>All above + custom reporting</td>
-            <td>200+ receipts / month</td>
-            <td><strong>Custom quote</strong></td>
-          </tr>
-          <tr>
-            <td><strong>Hourly Option</strong></td>
-            <td>For occasional or seasonal batches</td>
-            <td>Billed per hour</td>
-            <td><strong>$40 / hour</strong></td>
-          </tr>
-          <tr>
-            <td><strong>Per-Receipt / Batch</strong></td>
-            <td>Best for occasional uploads with very few receipts</td>
-            <td>Flexible (ad-hoc) / or ≤ 25 per batch</td>
-            <td><strong>$1.50 / receipt or $25 / batch (≤ 25 receipts)</strong></td>
-          </tr>
-        </tbody>
-      </table>
-      <p class="pricing-notes">
-        <strong>$25 Onboarding Fee</strong>.<br>
-        Rush (same-day) service may be billed at <strong>1.5× hourly</strong>.<br>
-        <em>Per-receipt discount:</em> <strong>$1.00 per receipt</strong> for volumes above 50 in the same month (ad-hoc).
-      </p>
-      <p>
-        <a class="pricing-cta" href="#contact">Schedule a Free Consultation</a>
-      </p>
-    </div>
-  </section>
+    <section id="services" class="container services">
+      <div class="service-card">
+        <div class="icon">✓</div>
+        <h3>Accurate Bookkeeping</h3>
+        <p>Clean, up-to-date books you can count on.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon">↗</div>
+        <h3>Financial Reporting</h3>
+        <p>Clear reports that help you understand your business and make better decisions.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon">⏱</div>
+        <h3>Save Time & Reduce Stress</h3>
+        <p>We handle the numbers so you can focus on what matters most.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon">✦</div>
+        <h3>Support For Your Business</h3>
+        <p>Friendly, personalized support and guidance every step of the way.</p>
+      </div>
+    </section>
 
-  <section id="about" class="section">
-    <div class="container card narrow about">
-      <h2>About Casey</h2>
-      <p>Hi, I’m Casey — a virtual bookkeeper who believes in calm over chaos. Whether you're just getting started or reinventing your work life, I’m here to help you stay balanced, organized, and confident in your finances.</p>
-      <p>At Balanced by Casey, I help business owners take control of their finances by providing clear, organized, and stress-free bookkeeping. With accurate records and consistent support, you’ll understand your numbers, make better decisions, and free up time to focus on growing your business. Whether you're just getting started or running an established company, I make sure your books are always balanced—so you can feel confident, not overwhelmed.</p>
-    </div>
-  </section>
+    <section id="quickbooks" class="quickbooks">
+      <div class="container quickbooks-inner">
+        <div class="qb-logo">QuickBooks <span>Online Support</span></div>
+        <div>
+          <h2>QuickBooks Online Support</h2>
+          <p>We use QuickBooks Online to help keep your books accurate, organized, and up to date — anytime, anywhere.</p>
+        </div>
+        <div class="device-box">Cloud-based books, clear reports, and organized financial records.</div>
+      </div>
+    </section>
 
-  <section id="newsletter" class="section">
-    <div class="container card narrow newsletter">
-      <h2>Join the Newsletter</h2>
-      <p>Get simple, stress-free bookkeeping tips right to your inbox. No spam, just helpful advice.</p>
-      <div class="ml-embedded" data-form="Dk47OQ"></div>
-      <div class="ml-embedded space-m" data-form="ZyH1id"></div>
-    </div>
-  </section>
+    <section id="about" class="about">
+      <div class="about-image" role="img" aria-label="Clean desk with laptop, notebook, and coffee mug"></div>
+      <div class="about-content">
+        <div class="script">Hi, I’m Casey</div>
+        <h2>Your Bookkeeping Partner</h2>
+        <p>I’m passionate about helping small business owners stay organized and confident in their numbers. My goal is to make bookkeeping simple, stress-free, and tailored to your business.</p>
+        <a class="btn" href="#contact">Learn More About Casey</a>
+      </div>
+    </section>
 
-  <section id="contact" class="section">
-    <div class="container card narrow contact-form" style="text-align:center;">
-      <h2>Contact Us</h2>
-      <form action="https://formspree.io/f/mvgqrbvy" method="POST" style="text-align:left;">
-        <label for="name">Your Name</label>
-        <input id="name" type="text" name="name" required />
+    <section class="cta-strip">
+      <div class="container cta-inner">
+        <h2>Ready for a more balanced business?<br><span class="script">Let’s work together!</span></h2>
+        <a class="btn" href="#contact">Get Started Today</a>
+      </div>
+    </section>
+  </main>
 
-        <label for="email">Email Address</label>
-        <input id="email" type="email" name="email" required />
-
-        <label for="phone">Phone Number</label>
-        <input id="phone" type="tel" name="phone" required />
-
-        <label for="message">Your Message</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-
-        <fieldset>
-          <legend>Text Message Consent</legend>
-          <p class="fineprint">
-            <input type="checkbox" disabled aria-hidden="true" />
-            Balanced By Casey Book Keeping Services would like your consent to send text message communications from <strong>+1 (888) 308-2364</strong> to your mobile number listed above, regarding customer care.
-            <br><br>
-            Consent is not a condition of purchase. Message frequency varies. Message and data rates may apply. Reply 'STOP' to unsubscribe at any time. Reply 'HELP' for assistance or more information.
-          </p>
-
-          <label style="display:block; margin-top:.5rem;">
-            <input type="checkbox" name="sms_consent_yes" value="Yes" />
-            Yes, I consent to receive informational messages from Balanced By Casey Book Keeping Services regarding customer care.
-          </label>
-
-          <label style="display:block; margin-top:.25rem;">
-            <input type="checkbox" name="sms_consent_no" value="No" />
-            No, I do not want to receive any text messages from Balanced By Casey Book Keeping Services.
-          </label>
-
-          <p class="fineprint space-s">
-            We do not share your mobile opt-in information with anyone. See our 
-            <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a> for more information on how we handle your data.
-          </p>
-        </fieldset>
-
-        <button type="submit">Send</button>
-      </form>
-    </div>
-  </section>
-
-  <section id="quote" class="section">
-    <div class="container card narrow quote-form">
-      <h2>Request a Quote for Catch-Up Bookkeeping</h2>
-      <form action="mailto:balancedbycasey@gmail.com" method="POST" enctype="text/plain">
-        <label for="qname">Your Name</label>
-        <input id="qname" type="text" name="name" required />
-
-        <label for="qemail">Your Email</label>
-        <input id="qemail" type="email" name="email" required />
-
-        <label for="qdetails">Details</label>
-        <textarea id="qdetails" name="details" rows="5" placeholder="Tell me about your catch-up needs (months of backlog, # of accounts, etc.)" required></textarea>
-
-        <button type="submit">Send Request</button>
-      </form>
-      <p class="fineprint space-s">Or book directly on Calendly: 
-        <a href="https://calendly.com/balancedbycasey" target="_blank" rel="noopener">https://calendly.com/balancedbycasey</a>
-      </p>
-    </div>
-  </section>
-
-  <footer>
+  <footer id="contact">
     <div class="container">
-      <p>&copy; 2025 Balanced by Casey. All rights reserved.</p>
+      <div class="footer-grid">
+        <div class="footer-item">
+          <strong>Website</strong>
+          <a href="https://www.balancedbycasey.com">www.balancedbycasey.com</a>
+        </div>
+        <div class="footer-item">
+          <strong>Phone</strong>
+          <a href="tel:18883082364">(888) 308-2364</a>
+        </div>
+        <div class="footer-item">
+          <strong>Email</strong>
+          <a href="mailto:support@balancedbycasey.com">support@balancedbycasey.com</a>
+        </div>
+      </div>
+      <div class="tagline">Accurate Books. Smarter Decisions. A Balanced Business.</div>
     </div>
   </footer>
+</body>
+</html>
 
-  <script>
-    (function(w,d,e,u,f,l,n){ w[f]=w[f]||function(){ (w[f].q=w[f].q||[]).push(arguments); };
-      l=d.createElement(e); l.async=1; l.src=u; n=d.getElementsByTagName(e)[0]; n.parentNode.insertBefore(l,n);
-    })(window,document,'script','https://assets.mail
