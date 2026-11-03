@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZF3XJYGPV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'G-2ZF3XJYGPV');
+  </script>
+
+ 
+  
+
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personalized Business Support | Balanced by Casey</title>
+  <style>
+    :root {
+      --green: #68765d;
+      --dark-green: #4f5d46;
+      --cream: #fbf8f2;
+      --beige: #e9dfd0;
+      --taupe: #9b876f;
+      --text: #333333;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(1150px, 92%);
+      margin: 0 auto;
+    }
+
+    header {
+      background: var(--cream);
+      padding: 22px 0;
+      border-bottom: 1px solid #e5ddd1;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .logo {
+      color: var(--green);
+      line-height: 1;
+    }
+
+    .logo .main {
+      display: block;
+      font-size: 2.4rem;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+    }
+
+    .logo .script {
+      display: block;
+      font-family: 'Brush Script MT', cursive;
+      font-size: 1.7rem;
+      color: var(--taupe);
+      text-align: center;
+      margin-top: 4px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      font-family: Arial, sans-serif;
+      font-size: 0.78rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--green);
+      color: var(--white);
+      padding: 13px 28px;
+      border-radius: 3px;
+      font-family: Arial, sans-serif;
+      font-size: 0.8rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      border: 1px solid var(--green);
+    }
+
+    .btn:hover {
+      background: var(--dark-green);
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1.15fr;
+      min-height: 560px;
+      align-items: center;
+      border-bottom: 1px solid #e5ddd1;
+      overflow: hidden;
+    }
+
+    .hero-content {
+      padding: 70px 6vw;
+      text-align: center;
+    }
+
+    .hero h1 {
+      color: var(--dark-green);
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      line-height: 1.05;
+      margin-bottom: 16px;
+    }
+
+    .hero .script {
+      display: block;
+      color: var(--taupe);
+      font-family: 'Brush Script MT', cursive;
+      font-weight: normal;
+      font-size: clamp(2.1rem, 5vw, 4.1rem);
+    }
+
+    .hero p {
+      font-family: Arial, sans-serif;
+      font-size: 1.1rem;
+      margin: 22px auto 32px;
+      max-width: 390px;
+    }
+
+    .hero-image {
+      min-height: 560px;
+      background:
+        linear-gradient(to right, rgba(251,248,242,0.15), rgba(251,248,242,0)),
+        url('YOUR-HOMEPAGE-IMAGE.jpg') center/cover no-repeat;
+      border-left: 12px solid rgba(104, 118, 93, 0.35);
+      border-top-left-radius: 50%;
+      border-bottom-left-radius: 50%;
+    }
+
+    .intro {
+      text-align: center;
+      padding: 50px 0 45px;
+      border-bottom: 1px solid #e5ddd1;
+    }
+
+    .intro .small-title {
+      font-family: Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      color: var(--dark-green);
+      font-size: 1rem;
+    }
+
+    .intro h2 {
+      font-family: 'Brush Script MT', cursive;
+      color: var(--taupe);
+      font-weight: normal;
+      font-size: clamp(2.2rem, 5vw, 3.4rem);
+      margin: 5px 0 20px;
+    }
+
+    .intro p {
+      max-width: 600px;
+      margin: 0 auto;
+      font-family: Arial, sans-serif;
+    }
+
+    .services {
+      padding: 55px 0;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      text-align: center;
+      border-bottom: 1px solid #e5ddd1;
+    }
+
+    .service-card {
+      display: block;
+      transition: background .2s ease, transform .2s ease;
+      padding: 20px 26px;
+      border-right: 1px solid #ddd2c4;
+    }
+
+    .service-card:hover, .service-card:focus-visible { background: #f0eadf; transform: translateY(-3px); outline-offset: 3px; }
+
+    .service-card:last-child {
+      border-right: none;
+    }
+
+    .icon {
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background: #e7e5dc;
+      color: var(--dark-green);
+      display: grid;
+      place-items: center;
+      margin: 0 auto 18px;
+      font-family: Arial, sans-serif;
+      font-size: 1.7rem;
+    }
+
+    .service-card h3 {
+      color: var(--dark-green);
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      line-height: 1.3;
+      margin-bottom: 12px;
+    }
+
+    .service-card p {
+      font-family: Arial, sans-serif;
+      font-size: 0.95rem;
+    }
+
+    .quickbooks {
+      background: var(--green);
+      color: var(--white);
+      padding: 48px 0;
+    }
+
+    .quickbooks-inner {
+      display: grid;
+      grid-template-columns: 0.8fr 1.2fr 1fr;
+      gap: 35px;
+      align-items: center;
+    }
+
+    .qb-logo {
+      font-family: Arial, sans-serif;
+      font-size: 2rem;
+      font-weight: bold;
+      line-height: 1.1;
+    }
+
+    .qb-logo span {
+      display: block;
+      font-size: 1rem;
+      font-weight: normal;
+    }
+
+    .quickbooks h2 {
+      font-family: Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 1.2rem;
+      margin-bottom: 12px;
+    }
+
+    .quickbooks p {
+      font-family: Arial, sans-serif;
+    }
+
+    .device-box {
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.35);
+      padding: 35px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      border-radius: 6px;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      background: var(--white);
+    }
+
+    .about-image {
+      min-height: 360px;
+      background: url('YOUR-ABOUT-IMAGE.jpg') center/cover no-repeat;
+    }
+
+    .about-content {
+      padding: 60px 8vw;
+    }
+
+    .about-content .script {
+      font-family: 'Brush Script MT', cursive;
+      color: var(--taupe);
+      font-size: 2rem;
+    }
+
+    .about-content h2 {
+      color: var(--dark-green);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 2rem;
+      line-height: 1.2;
+      margin: 6px 0 18px;
+    }
+
+    .about-content p {
+      font-family: Arial, sans-serif;
+      margin-bottom: 24px;
+    }
+
+    .cta-strip {
+      background: var(--beige);
+      padding: 28px 0;
+    }
+
+    .cta-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .cta-strip h2 {
+      color: var(--dark-green);
+      font-size: 1.8rem;
+    }
+
+    .cta-strip .script {
+      font-family: 'Brush Script MT', cursive;
+      color: var(--taupe);
+      font-size: 2rem;
+      font-weight: normal;
+    }
+
+    footer {
+      background: var(--green);
+      color: var(--white);
+      padding: 32px 0 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      text-align: center;
+      margin-bottom: 22px;
+    }
+
+    .footer-item strong {
+      display: block;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.8rem;
+      margin-bottom: 4px;
+    }
+
+    .tagline {
+      text-align: center;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      opacity: 0.85;
+    }
+
+    @media (max-width: 850px) {
+      .nav {
+        flex-direction: column;
+      }
+
+      nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+      }
+
+      .hero,
+      .about,
+      .quickbooks-inner {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-image {
+        border-radius: 0;
+        border-left: none;
+        min-height: 330px;
+      }
+
+      .services {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .service-card:nth-child(2) {
+        border-right: none;
+      }
+
+      .cta-inner,
+      .footer-grid {
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .services {
+        grid-template-columns: 1fr;
+      }
+
+      .service-card {
+      display: block;
+      transition: background .2s ease, transform .2s ease;
+        border-right: none;
+        border-bottom: 1px solid #ddd2c4;
+      }
+
+      .service-card:last-child {
+        border-bottom: none;
+      }
+
+      .logo .main {
+        font-size: 1.9rem;
+      }
+    }
+    .page-content {max-width:850px; margin:0 auto; padding:65px 5% 85px; font-family:Arial,sans-serif;}
+  .page-content h1 {font-family:Georgia,serif; color:var(--dark-green);font-size:clamp(2rem,5vw,3.3rem);margin-bottom:18px;}
+  .page-content h2 {font-family:Georgia,serif;color:var(--dark-green);margin:28px 0 10px;}
+  .page-content p {margin-bottom:18px;}
+  .page-content ul {padding-left:25px;margin:0 0 28px;}
+  .page-content li {margin-bottom:9px;}
+  .page-content .btn {margin-top:10px;}
+</style>
+</head>
+<body>
+<header>
+    <div class="container nav">
+      <a href="index.html" class="logo" aria-label="Balanced by Casey Home">
+        <span class="main">Balanced</span>
+        <span class="script">by Casey</span>
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="quickbooks.html">QuickBooks Online</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn" href="contact.html">Get Started</a>
+    </div>
+  </header>
+<main class="page-content"><h1>Personalized Business Support</h1><h2>Bookkeeping support that fits your needs</h2><p>Every small business is different. Balanced by Casey aims to provide friendly, practical support based on your situation.</p><ul><li>Discuss your current bookkeeping challenges</li><li>Identify the records and reports you need</li><li>Find a manageable plan for staying organized</li></ul><p>Reach out to discuss your bookkeeping goals.</p><a class="btn" href="mailto:support@balancedbycasey.com?subject=Free%20Bookkeeping%20Quote">Contact Me for a Free Quote</a></main>
+<footer id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-item">
+          <strong>Website</strong>
+          <a href="https://www.balancedbycasey.com">www.balancedbycasey.com</a>
+        </div>
+        <div class="footer-item">
+          <strong>Phone</strong>
+          <a href="tel:18883082364">(888) 308-2364</a>
+        </div>
+        <div class="footer-item">
+          <strong>Email</strong>
+          <a href="mailto:support@balancedbycasey.com">support@balancedbycasey.com</a>
+        </div>
+      </div>
+      <div class="tagline">Accurate Books. Smarter Decisions. A Balanced Business.</div>
+    </div>
+  </footer>
+</body>
+</html>
