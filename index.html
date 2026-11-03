@@ -13,9 +13,7 @@
  
   
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Balanced by Casey | Bookkeeping Solutions</title>
@@ -199,9 +197,13 @@
     }
 
     .service-card {
+      display: block;
+      transition: background .2s ease, transform .2s ease;
       padding: 20px 26px;
       border-right: 1px solid #ddd2c4;
     }
+
+    .service-card:hover, .service-card:focus-visible { background: #f0eadf; transform: translateY(-3px); outline-offset: 3px; }
 
     .service-card:last-child {
       border-right: none;
@@ -417,6 +419,8 @@
       }
 
       .service-card {
+      display: block;
+      transition: background .2s ease, transform .2s ease;
         border-right: none;
         border-bottom: 1px solid #ddd2c4;
       }
@@ -429,27 +433,34 @@
         font-size: 1.9rem;
       }
     }
-  </style>
+    .page-content {max-width:850px; margin:0 auto; padding:65px 5% 85px; font-family:Arial,sans-serif;}
+  .page-content h1 {font-family:Georgia,serif; color:var(--dark-green);font-size:clamp(2rem,5vw,3.3rem);margin-bottom:18px;}
+  .page-content h2 {font-family:Georgia,serif;color:var(--dark-green);margin:28px 0 10px;}
+  .page-content p {margin-bottom:18px;}
+  .page-content ul {padding-left:25px;margin:0 0 28px;}
+  .page-content li {margin-bottom:9px;}
+  .page-content .btn {margin-top:10px;}
+</style>
 </head>
 <body>
   <header>
     <div class="container nav">
-      <a href="#" class="logo" aria-label="Balanced by Casey Home">
+      <a href="index.html" class="logo" aria-label="Balanced by Casey Home">
         <span class="main">Balanced</span>
         <span class="script">by Casey</span>
       </a>
 
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#quickbooks">QuickBooks Online</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="quickbooks.html">QuickBooks Online</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
 
-      <a class="btn" href="#contact">Get Started</a>
+      <a class="btn" href="contact.html">Get Started</a>
     </div>
   </header>
 
@@ -458,7 +469,7 @@
       <div class="hero-content">
         <h1>Bookkeeping Solutions <span class="script">for a Balanced Business</span></h1>
         <p>Accurate books. Smarter decisions. More time for what you love.</p>
-        <a class="btn" href="#contact">Let’s Balance Your Business</a>
+        <a class="btn" href="contact.html">Let’s Balance Your Business</a>
       </div>
       <div class="hero-image" role="img" aria-label="Bookkeeping desk with records, accounts, calculator, and financial reports"></div>
     </section>
@@ -472,26 +483,26 @@
     </section>
 
     <section id="services" class="container services">
-      <div class="service-card">
+      <a class="service-card" href="services.html">
         <div class="icon">✓</div>
         <h3>Accurate Bookkeeping</h3>
         <p>Clean, up-to-date books you can count on.</p>
-      </div>
-      <div class="service-card">
+      </a>
+      <a class="service-card" href="reporting.html">
         <div class="icon">↗</div>
         <h3>Financial Reporting</h3>
         <p>Clear reports that help you understand your business and make better decisions.</p>
-      </div>
-      <div class="service-card">
+      </a>
+      <a class="service-card" href="benefits.html">
         <div class="icon">⏱</div>
         <h3>Save Time & Reduce Stress</h3>
         <p>We handle the numbers so you can focus on what matters most.</p>
-      </div>
-      <div class="service-card">
+      </a>
+      <a class="service-card" href="support.html">
         <div class="icon">✦</div>
         <h3>Support For Your Business</h3>
         <p>Friendly, personalized support and guidance every step of the way.</p>
-      </div>
+      </a>
     </section>
 
     <section id="quickbooks" class="quickbooks">
@@ -511,14 +522,14 @@
         <div class="script">Hi, I’m Casey</div>
         <h2>Your Bookkeeping Partner</h2>
         <p>I’m passionate about helping small business owners stay organized and confident in their numbers. My goal is to make bookkeeping simple, stress-free, and tailored to your business.</p>
-        <a class="btn" href="#contact">Learn More About Casey</a>
+        <a class="btn" href="about.html">Learn More About Casey</a>
       </div>
     </section>
 
     <section class="cta-strip">
       <div class="container cta-inner">
         <h2>Ready for a more balanced business?<br><span class="script">Let’s work together!</span></h2>
-        <a class="btn" href="#contact">Get Started Today</a>
+        <a class="btn" href="contact.html">Get Started Today</a>
       </div>
     </section>
   </main>
@@ -544,4 +555,3 @@
   </footer>
 </body>
 </html>
-
